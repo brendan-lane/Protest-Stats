@@ -1,0 +1,6 @@
+terminal:
+  before_script:
+    - apt-get update
+  script: ./start-server.sh
+  variables:
+    PLACEHOLDER: "placeholder"
